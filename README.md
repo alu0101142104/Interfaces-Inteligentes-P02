@@ -1,19 +1,23 @@
 # Interfaces-Inteligentes-P02
 
 ### 1. Crear una escena simple sobre la que probar diferentes configuraciones de objetos físicos en Unity. La escena debe tener un plano a modo de suelo, una esfera y un cubo.
-  - Ninguno de los objetos será físico.
+  #### a) Ninguno de los objetos será físico.
+  Como las físicas no se aplican sobre ninguno de los objetos, ninguno cae.
   ![gif1](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-1.gif)
-  - La esfera tiene físicas, el cubo no.
+  #### b) La esfera tiene físicas, el cubo no.
   ![gif2](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-2.gif)
-  - La esfera y el cubo tienen físicas.
+  #### c) La esfera y el cubo tienen físicas.
+  En este caso, al caer el cubo, se mueve la esfera por la fuerza que ejerce.
   ![gif3](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-3.gif)
-  - La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo.
+  #### d) La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo.
+  Como la esfera tiene más masa que el cubo, en este caso, no es capaz de moverla al caer.
   ![gif4](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-4.gif)
-  - La esfera tiene físicas y el cubo es de tipo IsTrigger.
+  #### f) La esfera tiene físicas y el cubo es de tipo IsTrigger.
   ![gif5](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-5.gif)
-  - La esfera tiene físicas, el cubo es de tipo IsTrigger y tiene físicas.
+  #### g) La esfera tiene físicas, el cubo es de tipo IsTrigger y tiene físicas.
   ![gif6](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-6.gif)
-  - La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.
+  #### h) La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.
+  Al no permitir la rotación, el cubo se queda estático encima de la esfera y esta no se mueve.
   ![gif7](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-7.gif)
 
 
