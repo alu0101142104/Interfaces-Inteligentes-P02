@@ -5,6 +5,7 @@
   Como las físicas no se aplican sobre ninguno de los objetos, ninguno cae.
   ![gif1](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-1.gif)
   #### b) La esfera tiene físicas, el cubo no.
+  En este caso, el cubo tiene físicas por lo cae encima de la esfera sin causarle un movimiento.
   ![gif2](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-2.gif)
   #### c) La esfera y el cubo tienen físicas.
   En este caso, al caer el cubo, se mueve la esfera por la fuerza que ejerce.
@@ -13,8 +14,10 @@
   Como la esfera tiene más masa que el cubo, en este caso, no es capaz de moverla al caer.
   ![gif4](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-4.gif)
   #### f) La esfera tiene físicas y el cubo es de tipo IsTrigger.
+  Esto causa el cubo sea traspasable pero se puede detectar la colisión producida. La esfera se queda en el interior del cubo.
   ![gif5](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-5.gif)
   #### g) La esfera tiene físicas, el cubo es de tipo IsTrigger y tiene físicas.
+  En este caso, al ser un objeto traspasable, el cubo atraviesa el suelo.
   ![gif6](https://github.com/alu0101142104/Interfaces-Inteligentes-P02/blob/f3f6721fd679d76253b09d5727d5a4f235814269/gifs/1-6.gif)
   #### h) La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo, se impide la rotación del cubo sobre el plano XZ.
   Al no permitir la rotación, el cubo se queda estático encima de la esfera y esta no se mueve.
