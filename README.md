@@ -25,15 +25,34 @@
 
 
 ### 2. Sobre la escena que has trabajado ubica un cubo que represente un personaje que vas a mover. Se debe implementar un script que haga de CharacterController. Cuando el jugador pulse las teclas de flecha (o aswd) el jugador se moverá en la dirección que estos ejes indican.
-  - Crear un script para el personaje que lo desplace por la pantalla, sin aplicar simulación física.
-  - Agregar un campo público que permita graduar la velocidad del movimiento desde el inspector de objetos.
-  - Estar a la escucha de si el usuario ha utilizado los ejes virtuales. Elegir cuáles se va a permitir utilizar: flechas, awsd.
-  - Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up).
+  #### a) Crear un script para el personaje que lo desplace por la pantalla, sin aplicar simulación física.
+  ![gif2-1]()
+  ![imagen2-1]()
+  #### b) Agregar un campo público que permita graduar la velocidad del movimiento desde el inspector de objetos.
+  ![gif2-2]()
+  ![imagen2-2]()
+  ![imagen2-2-2]()
+  #### c) Estar a la escucha de si el usuario ha utilizado los ejes virtuales. Elegir cuáles se va a permitir utilizar: flechas, awsd.
+  Se pueden usar ambos controles por defecto.
+  #### d) Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up).
+  Se ha implmentado el giro en las teclas Z y X.
+  ![imagen2-4]()
+  ![gif2-4]()
 
 
 ### 3. Sobre la escena que has trabajado programa los scripts necesarios para las siguientes acciones:
-  - Se deben incluir varios cilindros sobre la escena. Cada vez que el objeto jugador colisione con alguno de ellos, deben aumentar su tamaño y el jugador aumentar puntuación.
-  - Agregar cilindros de tipo A, en los que además, si el jugador pulsa la barra espaciadora lo mueve hacia fuera de él. 
-  - Se deben incluir cilindros que se alejen del jugador cuando esté próximo.
-  - Ubicar un tercer objeto que sea capaz de detectar colisiones y que se mueva con las teclas: I, L, J, M
-  - Debes ubicar cubos que que aumentan de tamaño cuando se le acerca una esfera y que disminuye cuando se le acerca el jugador.
+  #### a) Se deben incluir varios cilindros sobre la escena. Cada vez que el objeto jugador colisione con alguno de ellos, deben aumentar su tamaño y el jugador aumentar puntuación.
+  ![imagen3-1]()
+  ![gif3-1]()
+  #### b) Agregar cilindros de tipo A, en los que además, si el jugador pulsa la barra espaciadora lo mueve hacia fuera de él.
+  ![imagen3-2]()
+  ![gif3-2]()
+  #### c) Se deben incluir cilindros que se alejen del jugador cuando esté próximo.
+  ![imagen2-4]()
+  ![gif2-4]()
+  #### d) Ubicar un tercer objeto que sea capaz de detectar colisiones y que se mueva con las teclas: I, L, J, M
+  ![imagen2-4]()
+  ![gif2-4]()
+  #### e) Debes ubicar cubos que que aumentan de tamaño cuando se le acerca una esfera y que disminuye cuando se le acerca el jugador.
+  ![imagen2-4]()
+  ![gif2-4]()
