@@ -26,11 +26,12 @@
 
 ### 2. Sobre la escena que has trabajado ubica un cubo que represente un personaje que vas a mover. Se debe implementar un script que haga de CharacterController. Cuando el jugador pulse las teclas de flecha (o aswd) el jugador se moverá en la dirección que estos ejes indican.
   #### a) Crear un script para el personaje que lo desplace por la pantalla, sin aplicar simulación física.
+  ![imagen2-1](./Capturas/2-1.png)
   ![gif2-1](./gifs/2-1.gif)
   #### b) Agregar un campo público que permita graduar la velocidad del movimiento desde el inspector de objetos.
-  ![gif2-2](./gifs/2-2.gif)
   ![imagen2-2](./Capturas/2-2.png)
   ![imagen2-2-2](./Capturas/2-2-2.png)
+  ![gif2-2](./gifs/2-2.gif)
   #### c) Estar a la escucha de si el usuario ha utilizado los ejes virtuales. Elegir cuáles se va a permitir utilizar: flechas, awsd.
   Se pueden usar ambos controles por defecto.
   #### d) Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up).
