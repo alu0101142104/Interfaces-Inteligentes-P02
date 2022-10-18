@@ -48,11 +48,12 @@
   ![imagen3-2]()
   ![gif3-2]()
   #### c) Se deben incluir cilindros que se alejen del jugador cuando esté próximo.
-  ![imagen2-4]()
-  ![gif2-4]()
+  En este caso los he llamdo cilindros de tipo B.
+  ![imagen3-3]()
+  ![gif3-3]()
   #### d) Ubicar un tercer objeto que sea capaz de detectar colisiones y que se mueva con las teclas: I, L, J, M
-  ![imagen2-4]()
+  ![imagen3-4]()
   ![gif2-4]()
   #### e) Debes ubicar cubos que que aumentan de tamaño cuando se le acerca una esfera y que disminuye cuando se le acerca el jugador.
-  ![imagen2-4]()
-  ![gif2-4]()
+  ![imagen3-5]()
+  ![gif3-5]()
